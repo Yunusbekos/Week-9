@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <string>
 using namespace std;
 
 // Task 8
@@ -112,16 +113,16 @@ using namespace std;
 //     long long num = n;
 //     int count = 0;
 //     while (num != 1) {
-//         if (num % 2 == 0) {
-//             num /= 2;
+//  if (num % 2 == 0) {
+//     num /= 2;
 //         }
-//         else if (num == 3 || num % 4 == 1) {
-//             num--;
+//  else if (num == 3 || num % 4 == 1) {
+//     num--;
 //         }
-//         else {
-//             num++;
+//  else {
+//     num++;
 //         }
-//         count++;
+//     count++;
 //     }
 //     return count;
 // }
