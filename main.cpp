@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 // Task 8
@@ -66,3 +67,68 @@ using namespace std;
 
 // Task 6
 
+
+// long long powerOfTwo(int e) {
+//     long long result = 1;
+//     for (int i = 0; i < e; i++) {
+//         result *= 2;
+//     }
+//     return result;
+// }
+//
+// void printLucky(int k) {
+//     int len = 1;
+//     while (k > powerOfTwo(len)) {
+//         k -= powerOfTwo(len);
+//         len++;
+//     }
+//     int index = k - 1;
+//     string b = "";
+//
+//     for (int i = 0; i < len; i++) {
+//         b = char('0' + index % 2) + b;
+//         index /= 2;
+//     }
+//     for (int i = 0; i < len; i++) {
+//         if (b[i] == '0')
+//             cout << 4;
+//         else
+//             cout << 7;
+//     }
+//     cout << endl;
+// }
+//
+// int main() {
+//     int k;
+//     cin >> k;
+//     printLucky(k);
+// }
+
+
+// Task 7
+
+
+// int integerReplacement(int n) {
+//     long long num = n;
+//     int count = 0;
+//     while (num != 1) {
+//         if (num % 2 == 0) {
+//             num /= 2;
+//         }
+//         else if (num == 3 || num % 4 == 1) {
+//             num--;
+//         }
+//         else {
+//             num++;
+//         }
+//         count++;
+//     }
+//     return count;
+// }
+//
+// int main() {
+//     int n;
+//     cin >> n;
+//     cout << integerReplacement(n);
+//     return 0;
+// }
